@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvChiTietName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textSize="50dp"/>
+    <TextView
+        android:id="@+id/tvChiTietDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Des"
+        android:textSize="50dp"/>
+    <ImageView
+        android:id="@+id/tvChiTietImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        />
+    <TextView
+        android:id="@+id/tvChiTietColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="COlor"
+        android:textSize="50dp"/>
+    <TextView
+        android:id="@+id/tvChiTietPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:textSize="50dp"/>
+
+</LinearLayout>
